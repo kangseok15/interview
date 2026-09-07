@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --color-natural-bg: #F8FAFC;
+  --color-natural-text: #334155;
+  --color-natural-heading: #0F172A;
+  --color-natural-sage: #059669;
+  --color-natural-sand: #4F46E5;
+  --color-natural-accent: #0284C7;
+  --color-natural-border: #E2E8F0;
+  --color-natural-cream: #FFFFFF;
+  --color-surface-raised: #FFFFFF;
+  --color-brand-cyan: #0891B2;
+}
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-800 antialiased;
+    font-family: -apple-system, BlinkMacSystemFont, "Pretendard Variable", Pretendard, "Noto Sans KR", "Malgun Gothic", sans-serif;
+  }
+}

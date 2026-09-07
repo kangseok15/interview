@@ -1,0 +1,8 @@
+{
+  "name": "Remix: AI 학생부 면접 생성기",
+  "description": "학생부 PDF를 분석하여 맞춤형 대입 면접 문항을 생성합니다.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
